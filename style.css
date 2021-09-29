@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    border: 12px solid black;
+    border-image: linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+ header{
+
+    margin: 30px;
+    text-align: center;
+    color: gray;
+ }
+
+ #face{
+     width: 200px;
+     height: 60px;
+     border-radius: 10px;
+     font-size: 25px;
+     background-color: #4267B2;
+     color: white;
+     border: none;
+     letter-spacing: 1.5px;
+     
+
+}
+
+#google{
+    width: 200px;
+     height: 60px;
+     border-radius: 10px;
+     font-size: 25px;
+     box-shadow: 0px 0px 2px 2px silver;
+     border: none;
+     background-color: white;
+     letter-spacing: 1.5px;
+     color: rgb(51, 49, 49);
+     
+     
+     
+}
+
+.icons{
+    
+    padding: auto ;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+i{
+    padding: 10px;
+    font-size: 30px;
+}
+
+form{
+    width: 87%;
+    margin: auto;
+    
+}
+
+#pass, #uname{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid silver;
+}
+#label1, #label2{
+    font-size: larger;
+}
+#span1{
+    color:silver;
+    text-decoration: underline;
+    
+}
+
+.submit{
+    margin-top: 30px;
+}
+
+#buton{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    color: gray;
+}
+#span2{
+    text-decoration: underline;
+}
